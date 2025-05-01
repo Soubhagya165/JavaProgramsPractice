@@ -40,6 +40,7 @@ public class singlyLinkedList {
             tail.next = newNode;
             tail = newNode;
         }
+        size++;
     }
 
     public void InsertatAnyPosition (int data,int Position) {
